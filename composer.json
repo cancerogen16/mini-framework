@@ -11,6 +11,7 @@
     "minimum-stability": "beta",
     "require": {
         "illuminate/database": "^8.54",
-        "illuminate/events": "^8.54"
+        "illuminate/events": "^8.54",
+        "jenssegers/agent": "^2.6"
     }
 }
