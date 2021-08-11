@@ -1,10 +1,11 @@
 <?php
 
+use App\Controllers\PostController;
 use Phroute\Phroute\RouteCollector;
 
 $router = new RouteCollector();
 
-$router->get("/", []);
+$router->get("/", [PostController::class, 'index']);
 
 $dispatcher = new Phroute\Phroute\Dispatcher($router->getData());
 
