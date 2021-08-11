@@ -1,0 +1,13 @@
+{
+    "name": "ferri/framework",
+    "description": "mini framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cancerogen16",
+            "email": "don544@mail.ru"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
